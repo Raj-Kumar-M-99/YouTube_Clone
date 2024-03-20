@@ -21,7 +21,7 @@ export function useSidebarContext(){
 
 export const SidebarProvider = ({children}:SidebarProviderProps) => {
   const [isLargeOpen,setIsLargeOpen] = useState(true)
-  const [isSmallOpen,setIsSmallOpen] = useState(false)
+  const [isSmallOpen,setIsSmallOpen] = useState(false) 
 
   useEffect(()=>{
     const handler = () => {
